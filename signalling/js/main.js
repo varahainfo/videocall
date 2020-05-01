@@ -31,7 +31,7 @@ if (room === '') {
   room = 'vivek17';
 }
 
-var socket = io.connect("http://127.0.0.1:3000");
+var socket = io.connect("http://3.7.141.43:3000");
 socket.emit('create or join', room);
 console.log('Attempted to create or join room', room);
 
